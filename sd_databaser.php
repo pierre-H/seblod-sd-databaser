@@ -49,7 +49,7 @@ class plgCCK_Field_TypoSd_Databaser extends JCckPluginTypo
 		$sql = @$options2['sd_databaser_sql_query'];
 		$column = @$options2['sd_databaser_column_as_value'];
 		$sdSeparator = @$options2['sd_databaser_separator'];
-		$sdSeparater = !$sdSeparater ? '' : $sdSeparater;
+		$sdSeparator = !$sdSeparator ? '' : $sdSeparator;
 		$sdRecordSeparator = @$options2['sd_databaser_record_separator'];
 		$sdRecordSeparator = !$sdRecordSeparator ? '' : $sdRecordSeparator;
 		
